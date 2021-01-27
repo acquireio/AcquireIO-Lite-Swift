@@ -28,15 +28,6 @@ extension String {
     get
   }
 }
-@objc public enum AIOCallType : Swift.Int {
-  case audio = 0
-  case video
-  public typealias RawValue = Swift.Int
-  public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 extension UIViewController {
   @objc override dynamic open func awakeFromNib()
 }
@@ -217,9 +208,6 @@ extension AcquireIO {
   @objc final public func setDict(_ dict: [Swift.String : Any])
   @objc deinit
 }
-extension AcquireIOSDK.AIOCallType : Swift.Equatable {}
-extension AcquireIOSDK.AIOCallType : Swift.Hashable {}
-extension AcquireIOSDK.AIOCallType : Swift.RawRepresentable {}
 extension AcquireIOSDK.AcquireIOAPNSTokenType : Swift.Equatable {}
 extension AcquireIOSDK.AcquireIOAPNSTokenType : Swift.Hashable {}
 extension AcquireIOSDK.AcquireIOAPNSTokenType : Swift.RawRepresentable {}

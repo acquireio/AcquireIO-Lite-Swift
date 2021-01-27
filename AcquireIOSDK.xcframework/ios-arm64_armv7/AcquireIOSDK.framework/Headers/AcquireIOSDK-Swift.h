@@ -210,11 +210,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-typedef SWIFT_ENUM(NSInteger, AIOCallType, open) {
-  AIOCallTypeAudio = 0,
-  AIOCallTypeVideo = 1,
-};
-
 @class AcquireIOConfig;
 
 SWIFT_CLASS("_TtC12AcquireIOSDK9AcquireIO")
@@ -763,11 +758,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="AcquireIOSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
-
-typedef SWIFT_ENUM(NSInteger, AIOCallType, open) {
-  AIOCallTypeAudio = 0,
-  AIOCallTypeVideo = 1,
-};
 
 @class AcquireIOConfig;
 

@@ -45,8 +45,8 @@ The framework package is provided via this repository, which contains the follow
 
    - README.md - This document!
 
-   - AcquireIO.xcframework - The AcquireIO framework in XCFramework format for iOS devices. You can add this to your project manually if you aren't using a dependency manager.
-   - AcquireIO.podspec - Required by Cocoapods. You do not need to do anything with this file.
+   - AcquireIOSDK.xcframework - The AcquireIO framework in XCFramework format for iOS devices. You can add this to your project manually if you aren't using a dependency manager.
+   - AcquireIO-Lite-Swift.podspec - Required by Cocoapods. You do not need to do anything with this file.
 
 
 ## Installation 
